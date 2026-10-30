@@ -1,9 +1,17 @@
 import { useState } from 'react'
+import ChatInput from './ChatInput.jsx'
+import ChatMessage from './ChatMessage.jsx'
 import './App.css'
 
+
+
 function App() {
-  return <h1>Hello, World!</h1>;
-    
+  return (
+      <>
+      <ChatInput/>
+      <ChatMessage/>
+      </>
+  ) 
 }
 
 export default App
